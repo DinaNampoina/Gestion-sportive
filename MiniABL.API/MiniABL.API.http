@@ -1,0 +1,6 @@
+@MiniABL.API_HostAddress = http://localhost:5084
+
+GET {{MiniABL.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
