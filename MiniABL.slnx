@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="MiniABL.API/MiniABL.API.csproj" />
+  <Project Path="MiniABL.Application/MiniABL.Application.csproj" />
+  <Project Path="MiniABL.Domain/MiniABL.Domain.csproj" />
+  <Project Path="MiniABL.Infrastructure/MiniABL.Infrastructure.csproj" />
 </Solution>
