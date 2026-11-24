@@ -7,7 +7,8 @@ namespace MiniABL.API
     {
         public static IServiceCollection AddAPIDI(this IServiceCollection services, ConfigurationManager configuration)
         {
-            services.AddInfrasreuctureDI(configuration).AddApplicationDI();
+            services.AddInfrasreuctureDI(configuration)
+                .AddApplicationDI();
             return services;
         }
     }
